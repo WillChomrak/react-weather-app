@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1299px) {
+  h1 {
+    font-size: 240%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  input {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  h1 {
+    font-size: 215%;
+  }
+  input {
+    width: 70%;
+  }
+  .weather-text {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  input {
+    width: 85%;
+  }
+}

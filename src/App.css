@@ -1,0 +1,60 @@
+h1 {
+  font-size: 275%;
+}
+h2 {
+  font-size: 150%;
+}
+.wrapper {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(24, 24, 24);
+}
+
+/* TITLE SECTION */
+.title-container {
+  background-image: url(./img/mountains.png);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 20%;
+}
+.title-text {
+  background-color: rgba(245, 245, 245, 0.609);
+  border-radius: 10px;
+  padding: 1px 15px 12px 15px;
+}
+
+/* FORM AND WEATHER SECTION */
+.form-container {
+  background-color: rgb(0, 19, 63);
+  height: 100vh;
+  border-left: 2px solid rgb(24, 24, 24);
+  color: rgb(221, 221, 221);
+  padding-top: 6%;
+  font-size: 110%;
+  min-height: 600px;
+}
+/* FORM */
+input {
+  width: 50%;
+  outline: none;
+  border: 0px;
+  border-bottom: 2px solid rgb(121, 172, 255);
+  background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 30px;
+  padding: 3px;
+}
+input:focus {
+  border: 0px;
+  outline: none;
+  border-bottom: 2px solid rgb(121, 172, 255);
+}
+button {
+  font-size: 130%;
+  background-color: #398ac4;
+}
+
+/* WEATHER */
+.weather-text {
+  margin-top: 40px;
+  font-size: 120%;
+}
